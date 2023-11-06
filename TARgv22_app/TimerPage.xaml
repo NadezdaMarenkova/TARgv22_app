@@ -4,9 +4,28 @@
              x:Class="TARgv22_app.TimerPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label x:Name="timer_value"
+                Text="Timer Page!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="timer_start"
+                   Text="Start"
+                   FontSize="Medium"
+                   BackgroundColor="Aquamarine"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <Button x:Name="btn_tagasi"
+                    Text="Tagasi"
+                    FontSize="Large"
+                    BackgroundColor="Bisque"
+                    Clicked="btn_tagasi_Clicked">
+                
+                
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -12,6 +12,7 @@ namespace TARgv22_app
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EntryPage : ContentPage
     {
+        int i;
         Label label;
         public EntryPage()
         {
@@ -49,7 +50,7 @@ namespace TARgv22_app
             Content= st;
         }
 
-        private async void Editor_TextChanged (object sender, TextChangedEventArgs e)
+        private void Editor_TextChanged (object sender, TextChangedEventArgs e)
         {
             char key = e.NewTextValue?.LastOrDefault() ?? ' ';
             if (key == 'A')
