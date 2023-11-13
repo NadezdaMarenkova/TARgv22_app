@@ -1,4 +1,5 @@
 ﻿using System;
+using TARgv2206112023;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace TARgv22_app
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new StartPage());
+            MainPage = new NavigationPage(new StartPage1());
         }
 
         protected override void OnStart()
