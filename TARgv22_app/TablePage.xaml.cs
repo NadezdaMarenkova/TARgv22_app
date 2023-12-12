@@ -18,7 +18,10 @@ namespace TARgv22_app
         TableSection fotosection;
         public TablePage()
         {
-            fotosection= new TableSection { LayoutAlignment = LayoutAlignment.Center };
+            fotosection= new TableSection
+            { 
+              //LayoutAlignment.Center
+            };
             switchCell= new SwitchCell 
             { 
                 Text = "Näita veel ..."
