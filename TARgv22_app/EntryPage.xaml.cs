@@ -120,7 +120,7 @@ namespace TARgv22_app
 
         int i = 0, k = 0;
 
-
+        //
         /* public void Editor_TextChanged (object sender, TextChangedEventArgs e)
          {
              char key = e.NewTextValue?.LastOrDefault() ?? ' ';
