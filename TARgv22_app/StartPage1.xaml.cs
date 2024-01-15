@@ -22,7 +22,7 @@ namespace TARgv2206112023
                 new StepperSliderPage(),
                 new PickerPage(),
                 new TablePage(),
-                new Valgusfoor()
+                new TrafficLight_Page()
             };
         List<string> 
             teksts = new List<string> 
