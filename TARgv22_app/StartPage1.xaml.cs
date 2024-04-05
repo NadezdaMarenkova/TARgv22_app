@@ -21,7 +21,8 @@ namespace TARgv2206112023
                 new DateTime_Page(), 
                 new StepperSliderPage(),
                 new PickerPage(),
-                new TablePage()
+                new TablePage(),
+                new TrafficLight_Page()
             };
         List<string> 
             teksts = new List<string> 
@@ -32,7 +33,8 @@ namespace TARgv2206112023
                 "Ava Date Time Page" , 
                 "Ava Stepper Slider Page",
                 "Ava Picker Page",
-                "Ava Table Page"
+                "Ava Table Page",
+                "Ava Valgusfoor Page"
             };
         StackLayout st;
         public StartPage1()
