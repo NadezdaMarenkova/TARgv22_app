@@ -12,17 +12,18 @@ namespace TARgv2206112023
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StartPage1 : ContentPage
     {
-        List<ContentPage> 
-            pages = new List<ContentPage>() 
-            { 
-                new EntryPage(), 
-                new BoxView_Page(), 
-                new TimerPage(), 
-                new DateTime_Page(), 
+        List<ContentPage>
+            pages = new List<ContentPage>()
+            {
+                new EntryPage(),
+                new BoxView_Page(),
+                new TimerPage(),
+                new DateTime_Page(),
                 new StepperSliderPage(),
                 new PickerPage(),
                 new TablePage(),
-                new TrafficLight_Page()
+                new TrafficLight_Page(),
+                new MemorizingWords()
             };
         List<string> 
             teksts = new List<string> 
@@ -34,7 +35,8 @@ namespace TARgv2206112023
                 "Ava Stepper Slider Page",
                 "Ava Picker Page",
                 "Ava Table Page",
-                "Ava Valgusfoor Page"
+                "Ava Valgusfoor Page",
+                "Memorizing Words"
             };
         StackLayout st;
         public StartPage1()
